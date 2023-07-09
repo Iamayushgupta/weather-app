@@ -31,8 +31,6 @@
   * [Installation](#installation)
   * [Usage](#usage)
 * [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
 * [Contact](#contact)
 
 
@@ -83,4 +81,15 @@ Instructions on setting up the project locally. Be sure to include prerequisites
 7. Open the following URL in your browser
    ```sh
    http://localhost:3000/
+
+## Roadmap
+1. Enter the city's name
    
+ <img width="1427" alt="Screenshot 2023-07-09 at 2 21 42 PM" src="https://github.com/Iamayushgupta/weather-app/assets/73697731/2a9253fc-9ee8-4c55-8dd3-516cd47fa502" align="center">
+
+2. Press Enter and wait for the weather to be displayed
+   
+   <img width="1429" alt="Screenshot 2023-07-09 at 2 23 23 PM" src="https://github.com/Iamayushgupta/weather-app/assets/73697731/09dbd615-ea64-402d-823b-7c70789898d2" align="center">
+
+## Contact
+Email - ayushgupta71011@gmail.com
