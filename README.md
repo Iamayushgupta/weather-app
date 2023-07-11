@@ -10,7 +10,7 @@
   <p align="center">
     A user can enter a city name and get the location of it 
     <br />
-    <a href="https://github.com/Iamayushgupta/weather-app"><strong>Explore the docs »</strong></a>
+    <a href="https://ayushwho.notion.site/Weather-App-daac906068b944d194455d0d76a408ca"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/Iamayushgupta/weather-app">View Demo</a>
