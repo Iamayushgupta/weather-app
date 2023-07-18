@@ -1,6 +1,6 @@
 const request = require("request")
 const geocode = (address,callback)=>{
-    const url = "https://api.mapbox.com/geocoding/v5/mapbox.places/" +  encodeURIComponent(address) + ".json?access_token=pk.eyJ1IjoiYXl1c2h3aG8iLCJhIjoiY2xidjM3bDR4MWd4aDN2cWRuMng1cWpwbyJ9.xDh8DsQ0jdE-AxS1CmIcxw&limit=1"
+    const url = "https://api.mapbox.com/geocoding/v5/mapbox.places/" +  encodeURIComponent(address) + ".json?access_token=" + process.env.MAPBOX_KEY + "&limit=1"
     request({url, json:true} , (error,{body}={})=>{
         if (error){
             callback("Unable to connect to the internet")
