@@ -5,11 +5,11 @@ const geocode = (address,callback)=>{
         if (error){
             callback("Unable to connect to the internet")
         }
-        else if (body.features.length===0){
+        else if (!body || body.features.length===0){
             callback("Unable to find location")
         }
         else{
-            callback(error,{
+            callback(null,{
                 latitude : body.features[0].center[0] , 
                 longitude : body.features[0].center[1] , 
                 location : body.features[0].place_name , 
